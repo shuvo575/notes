@@ -3322,11 +3322,11 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#nav {
-				display: none;
+				display: block;
 			}
 
 				#nav + #main {
-					padding-top: 0;
+					padding-top: 5em;
 				}
 
 		}

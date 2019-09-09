@@ -17,7 +17,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<span class="logo"><img src="{{ asset('images/logo.svg') }}" alt="" /></span>
+						<span class="logo"><img width="170" src="{{ asset('images/logo.png') }}" alt="" /></span>
 						
 						<a href="{{ url('/') }}">
 							<h1>{{ config('app.name', 'Notes') }}</h1>
