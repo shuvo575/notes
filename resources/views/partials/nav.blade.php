@@ -11,11 +11,10 @@
         </li>
         @endif
         @else
-        <li><a href="#intro" class="active">Introduction</a></li>
-        <li><a href="#first">First Section</a></li>
-        <li><a href="#second">Second Section</a></li>
+        <li><a href="{{ route('home') }}">Home</a></li>
+        <li><a href="{{ route('new') }}">New Note</a></li>
         <li>
-            <a href="#pro" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+            <a href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                 {{ Auth::user()->name }} <span class="caret"></span>
             </a>
         </li>
