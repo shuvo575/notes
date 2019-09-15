@@ -39,8 +39,7 @@
                     <label for="demo-priority-high">High</label>
                 </div>
                 <div class="col-12">
-                    <textarea name="content" id="content" placeholder="Enter your note"
-                        rows="6"></textarea>
+                    <textarea name="content" id="summernote"></textarea>
                 </div>
                 <div class="col-12">
                     <ul class="actions">
@@ -60,8 +59,10 @@
 @section('scripts')
 @include('partials.scripts')
 <script>
-$(document).ready(function() {
-  $('#content').summernote();
-});
+ $('#summernote').summernote({
+        placeholder: 'Hello stand alone ui',
+        tabsize: 2,
+        height: 100
+      });
 </script>
 @endsection
